@@ -1,0 +1,86 @@
+{
+    "default": {
+        "background": "rgb(13,13,13)",
+        "border": "rgb(133,132,132)",
+        "stroke": "rgb(55,54,54)",
+        "ring": "rgb(251,141,0)",
+        "fire": "rgb(251,141,0)",
+        "currStreakNum": "rgb(160,160,160)",
+        "sideNums": "rgb(253,253,253)",
+        "currStreakLabel": "rgb(250,140,0)",
+        "sideLabels": "rgb(211,211,211)",
+        "dates": "rgb(119,119,119)"
+    },
+    "bosque-claro": {
+        "background": "ffffff",
+        "border": "f2f2f2",
+        "stroke": "eeeeee",
+        "ring": "e8771d",
+        "fire": "e8771d",
+        "currStreakNum": "8bbc35",
+        "sideNums": "414627",
+        "currStreakLabel": "81ba2d",
+        "sideLabels": "414828",
+        "dates": "5a5e44"
+    },
+    "bosque-selvatico": {
+        "background": "eef1d4",
+        "border": "ffffff",
+        "stroke": "abc453",
+        "ring": "e8771d",
+        "fire": "e8771d",
+        "currStreakNum": "8bbc35",
+        "sideNums": "414627",
+        "currStreakLabel": "81ba2d",
+        "sideLabels": "414828",
+        "dates": "5a5e44"
+    },
+    "bosque-oscuro": {
+        "background": "20231b",
+        "border": "2c331e",
+        "stroke": "b5c686",
+        "ring": "e8771d",
+        "fire": "e8771d",
+        "currStreakNum": "8db33a",
+        "sideNums": "d9e1e5",
+        "currStreakLabel": "8db33a",
+        "sideLabels": "d3dbe2",
+        "dates": "b5c78a"
+    },
+    "radical": {
+        "background": "0c0b1b",
+        "border": "848389",
+        "stroke": "7d7b82",
+        "ring": "fe408f",
+        "fire": "fe408f",
+        "currStreakNum": "f8d945",
+        "sideNums": "fd3f8e",
+        "currStreakLabel": "f3d544",
+        "sideLabels": "f63e8b",
+        "dates": "9eebe6"
+    },
+    "gruvbox": {
+        "background": "232323",
+        "border": "878686",
+        "stroke": "878686",
+        "ring": "fabe2b",
+        "fire": "fabe2b",
+        "currStreakNum": "fe8112",
+        "sideNums": "fabe2b",
+        "currStreakLabel": "fe8112",
+        "sideLabels": "fabe2b",
+        "dates": "81ad72"
+    },
+    "onedarkduo": {
+        "background": "22272e",
+        "border": "66686c",
+        "stroke": "66686c",
+        "ring": "e5c07b",
+        "fire": "e5c07b",
+        "currStreakNum": "8fb674",
+        "sideNums": "e5c07b",
+        "currStreakLabel": "8fb674",
+        "sideLabels": "e5c07b",
+        "dates": "cd666e"
+    }
+}
