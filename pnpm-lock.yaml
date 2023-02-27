@@ -1,9 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@picocss/pico': ^1.5.7
   '@sveltejs/adapter-auto': ^2.0.0
-  '@sveltejs/adapter-static': ^2.0.1
+  '@sveltejs/adapter-netlify': ^2.0.5
   '@sveltejs/kit': ^1.5.0
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.8.1
@@ -13,12 +12,9 @@ specifiers:
   typescript: ^4.9.3
   vite: ^4.0.0
 
-dependencies:
-  '@picocss/pico': 1.5.7
-
 devDependencies:
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.8.5
-  '@sveltejs/adapter-static': 2.0.1_@sveltejs+kit@1.8.5
+  '@sveltejs/adapter-netlify': 2.0.5_@sveltejs+kit@1.8.5
   '@sveltejs/kit': 1.8.5_svelte@3.55.1+vite@4.1.4
   prettier: 2.8.4
   prettier-plugin-svelte: 2.9.0_jrsxveqmsx2uadbqiuq74wlc4u
@@ -228,6 +224,10 @@ packages:
     dev: true
     optional: true
 
+  /@iarna/toml/2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: true
+
   /@jridgewell/resolve-uri/3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
     engines: {node: '>=6.0.0'}
@@ -265,10 +265,6 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@picocss/pico/1.5.7:
-    resolution: {integrity: sha512-RygdXNlSXieAs9jMw/AeqA1ki1kldgEYbRn8BnYZIPfRTM5NWZ4uVzMK6uMPhYlRjoT5wD/OplZvIefnCqyDCQ==}
-    dev: false
-
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
@@ -282,12 +278,15 @@ packages:
       import-meta-resolve: 2.2.1
     dev: true
 
-  /@sveltejs/adapter-static/2.0.1_@sveltejs+kit@1.8.5:
-    resolution: {integrity: sha512-o5/q3YwD/ErxYCFlK1v3ydvldyNKk1lh3oeyxn4mhz+Pkbx/uuxhzmbOpytTlp5aVqNHDVsb04xadUzOFCDDzw==}
+  /@sveltejs/adapter-netlify/2.0.5_@sveltejs+kit@1.8.5:
+    resolution: {integrity: sha512-i0qkxuH2/mLfk9T6uHAc/a3KU6mm9QhYdqqoIWWSAhst1lchLt9FzZfX9u6zzltOX+w+78/9E/+KPEwib7xenA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
+      '@iarna/toml': 2.2.5
       '@sveltejs/kit': 1.8.5_svelte@3.55.1+vite@4.1.4
+      esbuild: 0.16.17
+      set-cookie-parser: 2.5.1
     dev: true
 
   /@sveltejs/kit/1.8.5_svelte@3.55.1+vite@4.1.4:

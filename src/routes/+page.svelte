@@ -1,5 +1,4 @@
 <script context="module">
-	import '@picocss/pico';
 	import * as themesJSON from '../themes.json';
 </script>
 
